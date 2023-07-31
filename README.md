@@ -34,3 +34,10 @@ Completing tasks and having a physical action, such as crossing them off a list,
 Make sure to start by writing down the most urgent items or tasks you can accomplish easily. For example, if you have an important meeting to attend, you can list those first. Or perhaps you may begin by delivering a report that has a tight deadline. After writing down the crucial tasks, you can then move on to the less important goals. To avoid overloading your to-do list, sort all the tasks by level of priority. </p>
 </div>
 
+<div>
+Screenshot of website, to give idea about overall glance of website.
+</div>
+<br>
+<img src="https://github.com/ShubhamSKhedekar/Clock-Project-Timestamp.com/assets/125666627/a95119d5-2b53-4e6f-b020-342ac77b6546.png" alt="Img_Homepage" width="1000px"> 
+<br> <br> 
+<img src="https://github.com/ShubhamSKhedekar/Clock-Project-Timestamp.com/assets/125666627/92107732-6264-4012-9b71-eba23f1cd2d0.png" alt="Abt_Homepage" width="1000px">
