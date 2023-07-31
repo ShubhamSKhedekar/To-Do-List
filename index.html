@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>ToDo's List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <!-- Navigation bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">To Do's List</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+
+          <input
+            class="form-control me-3"
+            id="search_icon_id"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="info">
+      <div class="heading"><h3>TO DO's List</h3></div>
+      Create your desired items & actions list for a day, a week or a month.
+    </div>
+
+
+    <!-- content -->
+    <div class="input_container">
+      <!-- <div class="input-group input-group-sm mb-3" id="div_title_id">
+            <label for="title_id" class="title_label_cls">Title</label>
+            <input type="text" class="title_cls" id="title_id" placeholder="Type Here...">
+        </div> -->
+      <!-- <div class="mb-3" id="div_desc_id">
+            <label for="description" class="desc_label_cls">Description</label>
+            <textarea name="description_name" id="description" cols="3" class="desc_cls" placeholder="Typre Here..."></textarea>
+        </div> -->
+
+      <div class="input-group input-group-sm mb-3" id="div_title_id">
+        <label for="title_id" class="form-label">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title_id"
+          placeholder="Type here..."
+        />
+      </div>
+
+      <div class="form-floating" id="div_desc_id">
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="description"
+          class="desc_cls"
+          style="height: 100px"
+        ></textarea>
+        <label for="description" class="desc_label_cls">Description</label>
+      </div>
+
+      <div class="addtolist_button">
+        <button class="button_cls2" id="addToList_id">Add to list</button>
+        <button class="button_cls2" id="reset_id">Reset</button>
+      </div>
+    </div>
+
+
+    <!-- Tables -->
+    <div class="table_view">
+      <div class="text1">
+        <b><h5>Your items</h5></b>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">SrNo</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="table_body" id="tableBody_id">
+          <tr>
+            <th scope="row">1</th>
+            <td>Solve</td>
+            <td>10Qs on Leetcode and 5Qs on GFG</td>
+            <td><button class="button_cls">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-image: linear-gradient(to bottom right, rgba(255, 165, 56, 0.984), rgba(250, 240, 43, 0.77)); 
+    height: auto;
+}
+
+#search_icon_id{
+    width: 20vw;
+}
+
+.info{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    color: #6c757ded;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.heading{
+    color: black;
+}
+
+.input_container{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#div_title_id{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+#title_id{
+    width: 60vw;
+    border-radius: 5px;
+}
+
+.desc_cls{
+    height: 100px;
+    width: 60vw;
+}
+
+#div_desc_id{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc_label_cls{
+    padding-bottom: 1px;
+}
+
+.form-control{
+    width: 60vw;
+}
+
+.addtolist_button{
+    width: 60vw;
+    margin: 10px;
+}
+
+.button_cls2{
+    border: 1px solid rgba(37, 124, 255, 0.83);
+    border-radius:3px ;
+    background-color: rgba(37, 124, 255, 0.83);
+    color: azure;
+    width: 11vw;
+   
+}
+
+.button_cls2:hover{
+    border: 1px solid rgb(37, 124, 255);
+    border-radius:3px ;
+    background-color: rgb(37, 124, 255);
+    color: azure;
+    width: 11vw;
+}
+
+.text1{
+    width: 70vw;
+    display: flex;
+    margin: 5px;
+}
+
+.table_view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+
+.table{
+    width: 70vw;
+    border: 1px solid #6c757ded;
+}
+
+.button_cls{
+    border: 1px solid rgba(255, 47, 0, 0.655);
+    border-radius:3px ;
+    background-color: rgba(255, 47, 0, 0.655);
+    color: azure;
+}
+
+.button_cls:hover{
+    border: 1px solid rgb(255, 47, 0);
+    border-radius:3px ;
+    background-color: rgb(255, 47, 0);
+    color: azure;
+}
