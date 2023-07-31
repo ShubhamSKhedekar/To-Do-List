@@ -38,6 +38,8 @@ Make sure to start by writing down the most urgent items or tasks you can accomp
 Screenshot of website, to give idea about overall glance of website.
 </div>
 <br>
+![Capture1](https://github.com/ShubhamSKhedekar/To-Do-List/assets/125666627/c22826e5-f45b-44ab-a518-a656a501de41)
+
 <img src="https://github.com/ShubhamSKhedekar/Clock-Project-Timestamp.com/assets/125666627/a95119d5-2b53-4e6f-b020-342ac77b6546.png" alt="Img_Homepage" width="1000px"> 
 <br> <br> 
 <img src="https://github.com/ShubhamSKhedekar/Clock-Project-Timestamp.com/assets/125666627/92107732-6264-4012-9b71-eba23f1cd2d0.png" alt="Abt_Homepage" width="1000px">
